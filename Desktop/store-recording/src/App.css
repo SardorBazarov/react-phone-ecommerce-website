@@ -1,0 +1,56 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --lightYellow:#F7FF00;  
+  --lightViolet:#7700FF;
+}
+body{
+  font-family: 'Calistoga', cursive !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Courgette', cursive !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: var(--mainBlue) !important;
+}
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 50px);
+}
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-bright{
+  color: var(--lightBlue);
+
+}
+
+.btn-black {
+  background:transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border:0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark);
+  color: var(--mainWhite);
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
